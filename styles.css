@@ -10,6 +10,16 @@
 header {
     margin-top: 47px;
     margin-left: 42px;
+    margin-bottom: 177px;
+
+}
+
+.logo-image {
+
+    margin-left: 125px;
+    display: inline-block;
+    height: 500px;
+    width: 568px;
 
 }
 
@@ -17,51 +27,51 @@ header {
 
     font-size: 14px;
     font-weight: 400;
-    line-height: 21px;
+    line-height: normal;
     letter-spacing: 0.875px;
     text-align: center;
     color: #17233D;
     margin-right: 32px;
     cursor: pointer;
+    font-style: normal;
+    text-decoration: none;
 
 }
 
 .botao-sign {
-    border: 1px solid rgba(76, 181, 56, 1);
-    background: rgba(76, 181, 56, 1);
+    border: 1px solid #4CB538;
+    background: #6FBF44;
     border-radius: 6px;
     cursor: pointer;
     width: 124px;
     height: 51px;
     font-size: 16px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: normal;
     letter-spacing: 1px;
-    color: rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    line-height: 29px;
+    color: #fff;
 
 }
 
-img {
 
-    margin: 163px 0 0 123px;
-    display: inline-block;
-    height: 385px;
 
-}
-
-div {
+section {
 
     display: inline-block;
-    margin-left: 85px;
-    width: 493px;
+    margin-left: 84.82px;
+
 }
 
 h1 {
 
     font-size: 62px;
+    width: 582px;
     font-weight: 700;
     line-height: 82px;
-    letter-spacing: 0.596154px;
+    letter-spacing: 0.596px;
     color: #161A49;
 
 }
@@ -69,12 +79,14 @@ h1 {
 p {
 
     font-size: 18px;
+    font-style: normal;
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.5px;
     color: #4B505A;
     margin-top: 47px;
     margin-bottom: 55px;
+    width: 493px;
 
 }
 
@@ -82,9 +94,64 @@ p {
 
     font-size: 18px;
     font-weight: 500;
-    line-height: 27px;
+    font-style: normal;
+    line-height: normal;
     letter-spacing: 1px;
-    color: rgba(111, 191, 68, 1);
+    color: #6FBF44;
     cursor: pointer;
+
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .link-menu {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    section {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h1 {
+        width: 278px;
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 76px;
+
+    }
+
+    header {
+        margin: 0;
+    }
+
+    .botao-sign {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        margin: 17px 15px 0 284px;
+        font-weight: 400;
+
+    }
+
+    .logo-image {
+        width: 312px;
+        height: 288px;
+        margin: 0 auto;
+        margin-top: 74 px;
+
+    }
+
+    p {
+        width: 304px;
+        margin: 20px 0;
+    }
 
 }
